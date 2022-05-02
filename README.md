@@ -70,9 +70,7 @@ http://127.0.0.1:8000/swagger-ui/  документация.
 
 http://127.0.0.1:8000/salepoints/  метод get. Возвращает список торговых точек, привязаных к переданому номеру телефона.
 
-http://127.0.0.1:8000/visit/  метод post. Принимает тело {"sale_point": int,
-"latitude": float,
-"longitude": float}
+http://127.0.0.1:8000/visit/  метод post. Принимает тело {"sale_point": int, "latitude": float, "longitude": float}. Возвращает {"id": int, "visit_date": "DateTime"}. При условии что номер телефона принадлежит точки продажи.
 
 
 
