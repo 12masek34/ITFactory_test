@@ -1,5 +1,4 @@
 from django.contrib import admin
-from django.contrib.admin.utils import flatten_fieldsets
 
 from .models import Worker, SalePoint, Visiting
 

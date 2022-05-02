@@ -1,7 +1,7 @@
 from rest_framework.exceptions import ParseError, NotFound
 
 from app.models import SalePoint, Visiting
-from .serializers import RequestVisitSerializer
+
 
 
 class Accessor:

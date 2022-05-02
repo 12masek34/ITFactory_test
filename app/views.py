@@ -1,7 +1,7 @@
 from rest_framework.exceptions import ValidationError, NotFound
 from rest_framework.response import Response
 from rest_framework.viewsets import ModelViewSet
-from .models import SalePoint, Worker, Visiting
+from .models import SalePoint, Worker
 from .serializers import SalePointSerializer, RequestVisitSerializer, ResponseSerializer
 from .service import Accessor
 
