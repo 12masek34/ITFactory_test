@@ -51,6 +51,10 @@ source venv/bin/activate  активируем виртуальное окруж
 
 pip install -r requriments.txt  устанавливаем зависимости.
 
+Запускаем локальный сервер postgres.
+
+В корне проекта, в фаиле  .env прописываем настройки бд. DB_NAME = имя бд DB_USER = логин DB_PASSWORD = пароль.
+
 python manage.py makemigrations  создаем миграции.
 
 python manage.py migrate  применяем миграции.
@@ -58,10 +62,6 @@ python manage.py migrate  применяем миграции.
 python manage.py loaddata worker.json  загружаем тестовые данные в бд.
 
 python manage.py loaddata salepoint.json  загружаем тестовые данные в бд.
-
-Запускаем локальный сервер postgres.
-
-В корне проекта, в фаиле  .env прописываем настройки бд. DB_NAME = имя бд DB_USER = логин DB_PASSWORD = пароль.
 
 ---
 
