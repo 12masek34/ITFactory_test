@@ -44,3 +44,10 @@
 
 ---
  ## install
+
+python3.10 -m venv venv  создаем виртуальное окружение.
+
+source venv/bin/activate  активируем виртуальное окружение.
+
+
+
