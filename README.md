@@ -64,6 +64,13 @@ python manage.py loaddata salepoint.json  загружаем тестовые д
 В корне проекта, в фаиле  .env прописываем настройки бд. DB_NAME = имя бд DB_USER = логин DB_PASSWORD = пароль.
 
 ---
+
+Run.
+
+python manage.py runserver
+
+---
+
 ## routes
 
 ### По всем маршрутам, для авторизации, в headers надо передать ключ phone со значением любого номера телефона из бд (например +79615339876)
