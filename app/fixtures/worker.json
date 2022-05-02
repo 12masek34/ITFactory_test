@@ -1,0 +1,41 @@
+[{
+      "model": "app.worker",
+      "pk": 1,
+      "fields": {
+        "name": "Алексей",
+        "phone": "+79615339876"
+      }
+    },
+  {
+      "model": "app.worker",
+      "pk": 2,
+      "fields": {
+        "name": "Дмитрий",
+        "phone": "+79611238732"
+      }
+    },
+  {
+      "model": "app.worker",
+      "pk": 3,
+      "fields": {
+        "name": "Евгений",
+        "phone": "+79635311876"
+      }
+    },
+   {
+      "model": "app.worker",
+      "pk": 4,
+      "fields": {
+        "name": "Владимир",
+        "phone": "+79991189276"
+      }
+    },
+   {
+      "model": "app.worker",
+      "pk": 5,
+      "fields": {
+        "name": "Иван",
+        "phone": "+79181139000"
+      }
+    }
+]

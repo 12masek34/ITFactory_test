@@ -1,0 +1,81 @@
+[{
+      "model": "app.salepoint",
+      "pk": 1,
+      "fields": {
+        "name": "point1",
+        "worker": 2
+      }
+    },
+  {
+      "model": "app.salepoint",
+      "pk": 2,
+      "fields": {
+        "name": "point2",
+        "worker": 3
+      }
+    },
+  {
+      "model": "app.salepoint",
+      "pk": 3,
+      "fields": {
+        "name": "point3",
+        "worker": 2
+      }
+    },
+  {
+      "model": "app.salepoint",
+      "pk": 4,
+      "fields": {
+        "name": "point4",
+        "worker": 5
+      }
+    },
+  {
+      "model": "app.salepoint",
+      "pk": 5,
+      "fields": {
+        "name": "point5",
+        "worker": 1
+      }
+    },
+  {
+      "model": "app.salepoint",
+      "pk": 6,
+      "fields": {
+        "name": "point6",
+        "worker": 3
+      }
+    },
+  {
+      "model": "app.salepoint",
+      "pk": 7,
+      "fields": {
+        "name": "point7",
+        "worker": 4
+      }
+    },
+  {
+      "model": "app.salepoint",
+      "pk": 8,
+      "fields": {
+        "name": "point8",
+        "worker": 4
+      }
+    },
+  {
+      "model": "app.salepoint",
+      "pk": 9,
+      "fields": {
+        "name": "point9",
+        "worker": 1
+      }
+    },
+  {
+      "model": "app.salepoint",
+      "pk": 10,
+      "fields": {
+        "name": "point10",
+        "worker": 5
+      }
+    }
+]
